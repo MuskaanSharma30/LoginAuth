@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="heading">Daily Competitor Entry Module (Advt)</div>
+    <br /><br />
+    <div class="h" id="one">
+      <form>
+        <span class="h1">
+          <label for="pd">Publishing Date:</label>
+          <input type="date" id="date" name="name" class="H1" />
+        </span>
+        <span class="h2" id="two">
+          <label for="pd1">Publication:</label>
+          <span>
+            <select name="cars" id="Publication" style="width: 100px" class="same">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span><br><br>
+        </span>
+        <span class="h3" id="three">
+          <label for="pd">Edition(Printed at):</label>
+          <span>
+            <select name="cars" id="Edition" style="width: 100px" class="same">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span><br>
+        </span>
+        <br>
+        <hr />
+        <hr />
+        <br />
+        <span class="h4" id="four">
+          <label for="pd">Category:</label>
+          <span>
+            <select name="cars" id="Category" style="width: 100px" class="H4 same" >
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span>
+        </span>
+        <span class="h5" id="five">
+          <label for="pd">Brand:</label>
+          <span>
+            <select name="cars" id="Brand" style="width: 100px" class="H5 same">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span>
+          <br><br>
+        <span class="h6" id="six">
+          <label for="pd">Type of Advt:</label>
+          <span>
+            <select name="cars" id="Type" style="width: 100px" class="same">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span></span>
+        <span class="h7" id="seven"
+          ><label for="pd">Product:</label>
+          <span>
+            <select name="cars" id="Product" style="width: 100px" class="same"> 
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span><br /><br /><br>
+        <span class="space" id="spacet">
+          <label for="data">Height:</label>
+          <input type="text" id="Height" name="Width" size="4px" />
+          <label for="data">Width:</label>
+          <input type="text" id="Width" name="fname" class="" size="4px" />
+          <label for="data">Area:</label>
+          <input type="text" id="Area" name="fname" class="" size="4px" />
+          <label for="data">Page:</label>
+          <input type="text" id="Page" name="fname" class="" size="4px" />
+          <label for="data">Color:</label>
+          <span id="nine">
+            <select name="cars" id="Color" style="width: 100px">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+            </select>
+          </span>
+        </span
+        ><br />
+        <hr />
+        <button id="submit" onclick="submitdata(event)">Submit</button>
+      </form>
+    </div><br><br>
+     <div class="display" id="list_div">
+      <div class="list_item">
+        <span class="Date">Date</span>
+        <span class="Publication">Publication</span>
+        <span class="category">Category</span>
+        <span class="type">Type</span>
+        <span class="product">Product</span>
+        <span class="Area">Area</span>
+        <span class="Color">Color</span>
+        </div>
+        <span class="list_details"> 
+        
+        </span>
+       
+      </div> 
+
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+    <script>
+    
+      var firebaseConfig = {
+      apiKey: "AIzaSyDJr_8jAqzWnp41EhGKyG6_0wjDGFuf9no",
+      authDomain: "login-auth-f0567.firebaseapp.com",
+      databaseURL: "https://login-auth-f0567.firebaseio.com",
+      projectId: "login-auth-f0567",
+      storageBucket: "login-auth-f0567.appspot.com",
+    messagingSenderId: "1078767408115",
+    appId: "1:1078767408115:web:529d7183985508e007b886",
+    
+    };
+   
+    firebase.initializeApp(firebaseConfig);
+
+    </script>
+    <script src="i.js"></script>
+  </body>
+</html>

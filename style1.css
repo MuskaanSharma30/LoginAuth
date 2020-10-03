@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  height: 100vh;
+  background-color: rgb(165, 204, 206);
+  color: rgb(6, 4, 22);
+}
+hr {
+  background-color: rgb(6, 4, 22);
+}
+.h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(7, 3, 22);
+}
+form {
+  color: rgb(6, 4, 22);
+}
+.heading {
+  color: rgb(228, 227, 240);
+  font-weight: 600;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(7, 3, 22);
+}
+label {
+  color: rgb(6, 4, 22);
+  font-family: "Roboto", sans-serif;
+}
+input {
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+select {
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  margin-left: 10px;
+}
+.h2 {
+  margin-left: 210px;
+}
+.h5 {
+  margin-left: 250px;
+}
+.h7 {
+  margin-left: 250px;
+}
+.H1 {
+  margin-left: 25px;
+  width: 100px;
+}
+.H4 {
+  margin-left: 35px;
+}
+.H5 {
+  margin-left: 25px;
+}
+.H6 {
+  margin-left: 12px;
+}
+.space {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 0px;
+}
+button {
+  padding: 5px;
+  border-radius: 30px;
+  background-color: rgb(9, 9, 31);
+  color: aliceblue;
+  margin-left: 300px;
+}
+.list_item {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.space {
+  margin-left: 20px;
+}
+.list_details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details {
+  margin-left: 20px;
+}
